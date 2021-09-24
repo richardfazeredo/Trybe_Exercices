@@ -1,0 +1,33 @@
+{
+  "name": "my-scripts",
+  "version": "1.0.0",
+  "description": "Primeira aula de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "imc": "node imc.js",
+    "sorteio": "node sorteio.js",
+    "velocidade": "node velocidade.js",
+    "fatorial": "node fatorial.js",
+    "fibonacci": "node fibonacci.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardfazeredo/Trybe_Exercises.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Richard de Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardfazeredo/Trybe_Exercises/issues"
+  },
+  "homepage": "https://github.com/richardfazeredo/Trybe_Exercises#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
